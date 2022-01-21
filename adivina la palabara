@@ -4,6 +4,11 @@
 #include <stdio.h>    
 #include <stdlib.h>
 
+int palabra[]={0}
+short int intentos=10
+
 int main()
 {
+	printf("Adivina la palabra \n");
+	printf("Ingresa la palabra secereta que va adiniar el otro jugador, separando las letras por un enter \n");
 }
