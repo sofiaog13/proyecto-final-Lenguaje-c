@@ -1,1 +1,9 @@
-*/Proyecto final- Adivina la palabra*/
+/*Proyecto final- Adivina la palabra*/
+/*Realizao por Elizabeth Perez y Sofia Osejo*/
+
+#include <stdio.h>    
+#include <stdlib.h>
+
+int main()
+{
+}
