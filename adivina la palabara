@@ -25,7 +25,6 @@ int main()
 	printf("Intentos restantes: %d \n", intentos);
 	printf("Introduce una letra: \n");
 	intentos--;		
-	}
 	
 	return 0;
 	
