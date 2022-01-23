@@ -4,11 +4,29 @@
 #include <stdio.h>    
 #include <stdlib.h>
 
-int palabra[]={0}
-short int intentos=10
+int palabra[]={0};
+char nombreJugador[50]={0};
+short int intentos=10;
 
 int main()
 {
-	printf("Adivina la palabra \n");
-	printf("Ingresa la palabra secereta que va adiniar el otro jugador, separando las letras por un enter \n");
+	printf("ADIVINA LA PALABRA \n");//titulo
+	printf("Ingresa la palabra secereta que va a adivinar el otro jugador \n");
+	scanf("%s", palabra); // guarda la palabra
+
+	system("cls"); //limpiar pantalla
+	printf("Hora de adivinar \n");
+	printf("ingresa tu nombre \n");
+	scanf("%s", nombreJugador);
+	system("cls");
+	//agregar enunciado while/if segun sea necesario
+	printf("Partida de %s \n", nombreJugador);
+	printf("Palabra secreta: %s \n", palabra);
+	printf("Intentos restantes: %d \n", intentos);
+	printf("Introduce una letra: \n");
+	intentos--;		
+	}
+	
+	return 0;
+	
 }
