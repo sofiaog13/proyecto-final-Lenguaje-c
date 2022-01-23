@@ -21,7 +21,7 @@ int main()
 	system("cls");
 	//agregar enunciado while/if segun sea necesario
 	printf("Partida de %s \n", nombreJugador);
-	printf("Palabra secreta: %s \n", palabra);
+	printf("Palabra secreta: %s \n", palabra); //debe imprimir los guiones de acuerdo al numero de letras de la palabra
 	printf("Intentos restantes: %d \n", intentos);
 	printf("Introduce una letra: \n");
 	intentos--;		
