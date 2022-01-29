@@ -346,10 +346,10 @@ int main()
 
 	while(rep==1);
     cout<<"Juego finalizado"<<endl;
-    FILE *archivo=fopen("PartidasAdivinaPalabra.html", "a");
+    FILE *archivo=fopen("Partidas1.html", "a");
 	fprintf(archivo, "\n Creador palabra:%s - Jugador:%s - Palabra secreta:%s - Intentos restantes:%d ••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.•••••", nombre,nombre2,p1,intentos);
 	fclose(archivo);
-	system("PartidasAdivinaLaPalabra.html");
+	system("Partidas1.html");
 	return 0;
 }
 
