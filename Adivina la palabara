@@ -346,10 +346,10 @@ int main()
 
 	while(rep==1);
     cout<<"Juego finalizado"<<endl;
-    FILE *archivo=fopen("Partidas1.html", "a");
+    FILE *archivo=fopen("PartidasJuego.html", "a");
 	fprintf(archivo, "\n Creador palabra:%s - Jugador:%s - Palabra secreta:%s - Intentos restantes:%d ••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.••••.•´¨`•.•••••", nombre,nombre2,p1,intentos);
 	fclose(archivo);
-	system("Partidas1.html");
+	system("PartidasJuego.html");
 	return 0;
 }
 
